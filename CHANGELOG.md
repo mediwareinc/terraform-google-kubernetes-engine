@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Extending the adopted spec, each change should have a link to its corresponding pull request appended.
 
+## [20.1.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v20.0.0...v20.1.0) (2022-03-29)
+
+
+### Features
+
+* Add app.kubernetes.io/created-by label to CPR in ASM module ([#1190](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1190)) ([bbd9b77](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/bbd9b770987b6e8e502ce3747ccc6ce0a96e79c1))
+
+
+### Bug Fixes
+
+* add provider_meta for google-beta to ASM submodule ([#1186](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1186)) ([9f06ef4](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/9f06ef4562adcc9096fbf2da6041746d3d08c483))
+* Apply applicable ASM_OPTS in config_map ([#1183](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1183)) ([79d604a](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/79d604aa40db27e17a679eaf4902fedf6de7cf67))
+
 ## [20.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v19.0.0...v20.0.0) (2022-03-10)
 
 
