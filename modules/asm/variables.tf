@@ -86,3 +86,9 @@ variable "enable_mesh_feature" {
   type        = bool
   default     = false
 }
+
+variable "create_system_namespace" {
+  description = "Determines whether the module creates the istio-system namespace."
+  type        = bool
+  default     = true
+}
