@@ -42,7 +42,7 @@ resource "kubernetes_namespace" "system" {
 resource "kubernetes_config_map" "asm_options" {
   metadata {
     name      = "asm-options"
-    namespace = kubernetes_namespace.system.metadata[0].name
+    namespace = try(kubernetes_namespace.system[0].metadata[0].name, "istio-system")
   }
 
   data = {
