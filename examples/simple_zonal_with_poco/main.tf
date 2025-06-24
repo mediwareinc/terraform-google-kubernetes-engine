@@ -24,7 +24,7 @@ provider "google" {
 
 module "gke" {
   source  = "terraform-google-modules/kubernetes-engine/google"
-  version = "~> 34.0"
+  version = "~> 37.0"
 
   project_id    = var.project_id
   fleet_project = var.project_id
