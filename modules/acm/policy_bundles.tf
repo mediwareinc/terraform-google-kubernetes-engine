@@ -16,7 +16,7 @@
 
 module "policy_bundles" {
   source  = "terraform-google-modules/gcloud/google//modules/kubectl-wrapper"
-  version = "~> 3.1"
+  version = "~> 4.0"
 
   for_each                = toset(var.policy_bundles)
   project_id              = var.project_id
